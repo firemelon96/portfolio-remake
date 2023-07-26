@@ -26,7 +26,7 @@ const Responsibility = ({ works }: { works: any }) => {
 
 const Experience = ({ data }: ExperienceProps) => {
   return (
-    <div className='h-auto pt-10' id='experience'>
+    <div className='h-fit pt-10' id='experience'>
       <div className='container mx-auto items-center justify-center'>
         <Animate>
           <h1 className='title'>Work Experience</h1>

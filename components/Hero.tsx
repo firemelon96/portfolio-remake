@@ -9,7 +9,7 @@ import { Button } from './Button';
 
 const Hero = () => {
   return (
-    <div className='h-screen' id='hero'>
+    <div className='h-fit' id='hero'>
       <div className='container mx-auto pt-10'>
         <div className='flex flex-col md:px-20 xl:px-32 2xl:px-52 p-8 md:py-8 md:my-28 md:mx-4 items-center md:justify-between gap-20 md:flex-row-reverse'>
           <HeroImage />
