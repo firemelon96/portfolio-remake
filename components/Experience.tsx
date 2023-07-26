@@ -10,7 +10,7 @@ interface ExperienceProps {
 const Responsibility = ({ works }: { works: any }) => {
   return (
     <ul className='list-disc px-6'>
-      {works.map((work, i) => (
+      {works.map((work: any, i: number) => (
         <Animate>
           <li
             className='mt-2 text-slate-600 dark:text-slate-200 text-lg md:text-2xl'
@@ -31,7 +31,7 @@ const Experience = ({ data }: ExperienceProps) => {
         <Animate>
           <h1 className='title'>Work Experience</h1>
         </Animate>
-        {data?.map((item) => (
+        {data?.map((item: any) => (
           <div
             key={item.id}
             className='flex items-start mb-4 justify-center gap-2'
