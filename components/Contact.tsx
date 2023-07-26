@@ -93,7 +93,7 @@ const Contact = () => {
             <textarea
               id='message'
               name='message'
-              rows='4'
+              rows={4}
               onChange={(e) => setMessage(e.target.value)}
               value={message}
               className='w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:border-blue-500'
