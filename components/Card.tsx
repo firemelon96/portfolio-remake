@@ -9,7 +9,7 @@ interface CardProps {
 const TechnologiesList = ({ lists }: { lists: any }) => {
   return (
     <ul className='flex flex-wrap gap-2 mt-3'>
-      {lists.map((list, i) => (
+      {lists.map((list:any, i:number) => (
         <li key={i} className='p-1 bg-slate-500 text-slate-300 rounded-full'>
           {list}
         </li>
@@ -30,7 +30,7 @@ const Card = ({ data }: CardProps) => {
 
   return (
     <div className='grid gap-4 md:grid-cols-2 lg:grid-cols-3'>
-      {data?.map((item) => (
+      {data?.map((item:any) => (
         <Animate>
           <div
             key={item.id}
