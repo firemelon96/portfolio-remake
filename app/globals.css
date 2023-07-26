@@ -25,3 +25,9 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@layer components {
+  .title {
+    @apply text-4xl md:text-5xl p-6 text-center font-semibold mb-6
+  }
+}
