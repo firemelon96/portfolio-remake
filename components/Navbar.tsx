@@ -9,6 +9,7 @@ const Navbar = () => {
   const scrollToSection = (sectionId: string) => {
     const sectionElement = document.getElementById(sectionId);
     sectionElement?.scrollIntoView({ behavior: 'smooth' });
+    setIsOpen(false);
   };
 
   const toggleMenu = () => {
@@ -16,18 +17,18 @@ const Navbar = () => {
   };
 
   return (
-    <nav className='sticky top-0 z-10 bg-slate-100 dark:bg-slate-900 dark:text-slate-200'>
+    <nav className='block sticky top-0 z-10 bg-slate-100 dark:bg-slate-900 dark:text-slate-200'>
       <div className='flex container mx-auto h-16 items-center px-4 justify-between'>
         <div
           onClick={() => scrollToSection('hero')}
-          className='hover:cursor-pointer text-2xl font-bold'
+          className='hover:cursor-pointer text-2xl font-bold text-slate-950 dark:text-slate-200'
         >
           MY PORTFOLIO
         </div>
         <div className=''>
           <Switcher />
         </div>
-        <div className='hidden md:flex'>
+        <div className='hidden md:flex text-slate-600 dark:text-slate-200'>
           <motion.a
             onClick={() => scrollToSection('experience')}
             className='p-2 cursor-pointer'
@@ -65,7 +66,7 @@ const Navbar = () => {
         <div className='md:hidden'>
           <button className='focus:outline-none' onClick={toggleMenu}>
             <svg
-              className='w-6 h-6'
+              className='w-6 h-6 stroke-black dark:stroke-white'
               fill='none'
               stroke='currentColor'
               viewBox='0 0 24 24'
@@ -91,7 +92,7 @@ const Navbar = () => {
         </div>
       </div>
       {isOpen && (
-        <div className='md:hidden justify-center text-center text-lg items-center z-20'>
+        <div className='md:hidden justify-center text-center text-lg items-center pb-3 z-20 text-slate-950 dark:text-slate-200'>
           <motion.a
             onClick={() => scrollToSection('experience')}
             whileHover={{ scale: 1.1 }}

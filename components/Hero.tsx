@@ -15,17 +15,19 @@ const Hero = () => {
           <HeroImage />
           <div className='text-center md:text-left '>
             <Animate>
-              <p className='text-2xl'>Hey, I'm</p>
+              <p className='text-2xl text-slate-600 dark:text-slate-200'>
+                Hey, I'm
+              </p>
             </Animate>
             <Animate>
-              <h1 className=' text-6xl lg:text-8xl '>
+              <h1 className=' text-5xl lg:text-8xl '>
                 <span className='bg-clip-text font-extrabold text-transparent bg-gradient-to-r from-teal-500 to-green-600'>
                   Almujahid J.
                 </span>
               </h1>
             </Animate>
             <Animate>
-              <p className='text-3xl lg:text-5xl '>
+              <p className='text-3xl lg:text-5xl h-20 md:h-24 text-slate-600 dark:text-slate-200'>
                 I'm a <TypeText />
                 <Cursor cursorColor='green' />
               </p>

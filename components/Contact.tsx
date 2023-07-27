@@ -34,8 +34,10 @@ const Contact = () => {
   };
 
   return (
-    <div className='h-screen pt-10' id='contact'>
-      <h1 className='title md:mb-28'>Leave a message</h1>
+    <div className='h-fit pt-10' id='contact'>
+      <h1 className='title  text-slate-600 dark:text-slate-200 md:mb-28'>
+        Leave a message
+      </h1>
       <div className='flex mb-20 items-center justify-center flex-col md:flex-row gap-11'>
         <div className=''>
           <Image

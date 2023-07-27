@@ -10,7 +10,7 @@ const Projects = ({ projectData }: ProjectsProps) => {
   return (
     <div className='container mx-auto pt-10' id='projects'>
       <Animate>
-        <h1 className='title'>Projects</h1>
+        <h1 className='title  text-slate-600 dark:text-slate-200'>Projects</h1>
       </Animate>
       <div className='flex flex-col md:flex-row gap-4 items-center justify-center'>
         <Card data={projectData} />
