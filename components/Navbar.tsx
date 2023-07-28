@@ -17,7 +17,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className='block sticky top-0 z-10 bg-slate-100 dark:bg-slate-900 dark:text-slate-200'>
+    <nav className='fixed w-full top-0 z-20 bg-slate-100 dark:bg-slate-900 dark:text-slate-200'>
       <div className='flex container mx-auto h-16 items-center px-4 justify-between'>
         <div
           onClick={() => scrollToSection('hero')}

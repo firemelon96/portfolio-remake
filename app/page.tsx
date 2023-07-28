@@ -8,7 +8,7 @@ import { ProjectsDummy } from '@/resources/projects';
 
 export default function Home() {
   return (
-    <div className='z-0'>
+    <>
       <Hero />
 
       <Experience data={ExperienceDummy} />
@@ -18,6 +18,6 @@ export default function Home() {
       <Contact />
 
       <Footer />
-    </div>
+    </>
   );
 }
