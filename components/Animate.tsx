@@ -43,7 +43,7 @@ const Animate = ({ children }: AnimateProps) => {
           left: 0,
           right: 0,
           background: 'green',
-          zIndex: 20,
+          zIndex: 1,
           borderRadius: 5,
         }}
       ></motion.div>

@@ -33,7 +33,7 @@ export const ProjectsDummy = [
     title: 'Inventory app',
     description: 'An inventory app that developed using MERN stack.',
     technologies: ['MongoDB', 'ExpressJS', 'ReactJs', 'NodeJs'],
-    image: '/inventory.png',
+    image: '/Inventory.png',
   },
   {
     id: 1,

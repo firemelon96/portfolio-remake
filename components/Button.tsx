@@ -17,8 +17,8 @@ export const Button = ({ text, className }: ButtonProps) => {
     <motion.button
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.9 }}
-      className={`p-2 text-green-800 border border-green-800 rounded-full hover:bg-green-800 hover:text-white ${className}`}
-      onClick={() => scrollToSection('projects')}
+      className={`p-2 text-green-800 border-2 border-green-800 tracking-wide rounded-full font-semibold hover:bg-green-800 hover:text-white ${className}`}
+      onClick={() => scrollToSection('contact')}
     >
       {text}
     </motion.button>
