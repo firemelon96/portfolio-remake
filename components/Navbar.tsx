@@ -57,7 +57,7 @@ const Navbar = () => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             download
-            href='/ajamionResume.pdf'
+            href='/ajamionFinalResume.pdf'
             className='p-2 text-green-800 border-2 font-medium border-green-800 rounded-full hover:bg-green-800 hover:text-white'
           >
             Resume
@@ -121,7 +121,7 @@ const Navbar = () => {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.9 }}
             download
-            href='/ajamionResume.pdf'
+            href='/ajamionFinalResume.pdf'
             className='block mx-4 p-2 text-green-800 border-2 font-medium border-green-800 rounded-full hover:bg-green-800 hover:text-white'
           >
             Resume
