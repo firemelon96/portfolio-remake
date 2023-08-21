@@ -1,5 +1,23 @@
 export const ProjectsDummy = [
   {
+    id: 7,
+    title: 'Ecommerce-admin',
+    description:
+      'An ecommerce admin cms created using chadcn, tailwindcss, clerk as auth, and latest nextjs.',
+    technologies: ['ReactJs', 'Nextjs', 'clerk', 'shadcn', 'Tailwindcss'],
+    image: '/ecommerce-admin.png',
+    link: 'https://ecommerce-store-gamma-gules.vercel.app/',
+  },
+  {
+    id: 6,
+    title: 'Ecommerce-store',
+    description:
+      'An ecommerce store using nextjs 13 app router and tailwind css',
+    technologies: ['ReactJs', 'Nextjs', 'Tailwindcss'],
+    image: '/ecommerce-store.png',
+    link: 'https://ecommerce-store-gamma-gules.vercel.app/',
+  },
+  {
     id: 5,
     title: 'Filmpire',
     description:
