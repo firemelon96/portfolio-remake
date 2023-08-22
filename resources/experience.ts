@@ -1,7 +1,7 @@
 export const ExperienceDummy = [
   {
     id: 1,
-    title: 'Freelance Web Developer',
+    title: 'Fullstack Web Developer',
     company: 'Work from home',
     address: 'Remote',
     date: 'December 2022 - present',
@@ -16,7 +16,7 @@ export const ExperienceDummy = [
   },
   {
     id: 2,
-    title: 'Software engineer',
+    title: 'Fullstack Developer',
     company: 'Palawan State University Research Office',
     address: 'Palawan, PH',
     date: 'June 19 - October 2022',
@@ -34,7 +34,7 @@ export const ExperienceDummy = [
   },
   {
     id: 3,
-    title: 'Web Developer',
+    title: 'Fullstack web developer',
     company: 'E-estate Realty Corp',
     address: 'Palawan, PH',
     date: 'June 19 - October 2022',
