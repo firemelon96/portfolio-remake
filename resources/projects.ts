@@ -6,7 +6,7 @@ export const ProjectsDummy = [
       'An ecommerce admin cms created using chadcn, tailwindcss, clerk as auth, and latest nextjs.',
     technologies: ['ReactJs', 'Nextjs', 'clerk', 'shadcn', 'Tailwindcss'],
     image: '/ecommerce-admin.png',
-    link: 'https://ecommerce-store-gamma-gules.vercel.app/',
+    link: 'https://ecommerce-admin-next13-i0addkgwr-firemelon96.vercel.app/',
   },
   {
     id: 6,
