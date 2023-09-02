@@ -1,5 +1,20 @@
 export const ProjectsDummy = [
   {
+    id: 8,
+    title: 'Airbnb clone',
+    description: 'A clone of famous airbnb website.',
+    technologies: [
+      'ReactJs',
+      'Nextjs',
+      'Nextauth',
+      'prisma',
+      'mongodb',
+      'tailwindcss',
+    ],
+    image: '/airbnb.png',
+    link: 'https://airbnb-clone-beryl-psi.vercel.app/',
+  },
+  {
     id: 7,
     title: 'Ecommerce-admin',
     description:
